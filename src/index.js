@@ -23,7 +23,7 @@ for(var i=0;i<delete_.length;i++){
 var delete_ = document.querySelectorAll('#taskname');
 for(var i=0;i<delete_.length;i++){
     delete_[i].onclick=function(){
-        this.parentNode.value.stricke();
+        this.parentNode.style.textDecoration="line-through";
     }
 
 }
